@@ -6,7 +6,7 @@ import GearShop from "./components/GearShop/GearShop";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/GearShop" element={<GearShop />} />
