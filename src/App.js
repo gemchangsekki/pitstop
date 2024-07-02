@@ -6,10 +6,10 @@ import GearShop from "./components/GearShop/GearShop";
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/GearShop" element={<GearShop />} />
+          <Route path="/gearshop" element={<GearShop />} />
         </Routes>
       </Router>
     </div>

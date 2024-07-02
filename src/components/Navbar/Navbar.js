@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Layout, Menu } from 'antd';
+import { Button, Layout} from 'antd';
 import logo from '../img/logo.png'
 
 const { Header } = Layout;
@@ -10,7 +10,11 @@ function Navbar() {
   return (
 
     <Layout>
-      <Header>
+      <Header
+        style={{
+          backgroundColor: '#aaaaaa'
+        }}
+      >
         <a href='/'>
           <img src={logo} width={'60px'} />
         </a>

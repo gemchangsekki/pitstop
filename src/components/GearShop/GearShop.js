@@ -28,6 +28,8 @@ function GearShop() {
       </div>
       <div>
         <DropDown />
+        <DropDown />
+        <DropDown />
       </div>
       <div
         style={{
