@@ -14,7 +14,7 @@ function MainPage() {
       <div
         className='main banner'
         style={{
-          margin: '100px',
+          margin: '20px',
           textAlign: 'center'
         }}
       >
@@ -24,8 +24,9 @@ function MainPage() {
         >
           <img 
             src={partsShopImage}
+            alt='partShop'
             style={{
-              width: '400px',
+              width: '600px',
               border: '3px solid gray',
               borderRadius: '30px',
               margin: '40px 20px'
@@ -34,12 +35,13 @@ function MainPage() {
         </a>
         <a
           className='gearShoplink'
-          href='/GearShop'
+          href='/gearshop'
         >
           <img 
             src={gearShopImage}
+            alt='gearShop'
             style={{
-              width: '400px',
+              width: '600px',
               border: '3px solid gray',
               borderRadius: '30px',
               margin: '40px 20px'
