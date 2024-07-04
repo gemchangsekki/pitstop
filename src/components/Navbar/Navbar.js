@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Layout} from 'antd';
 import logo from '../img/logo.png'
+import { Link } from 'react-router-dom';
 
 const { Header } = Layout;
 
@@ -15,9 +16,12 @@ function Navbar() {
           backgroundColor: '#aaaaaa'
         }}
       >
-        <a href='/'>
+        <Link
+          className='logoLink'
+          to={'/'}
+        >
           <img src={logo} width={'60px'} />
-        </a>
+        </Link>
         <div 
           style={{
             float: 'right',

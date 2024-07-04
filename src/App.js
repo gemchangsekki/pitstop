@@ -2,6 +2,7 @@ import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import MainPage from "./components/MainPage/MainPage";
 import GearShop from "./components/GearShop/GearShop";
+import PartsStore from "./components/PartsStore/PartsStore";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/gearshop" element={<GearShop />} />
+          <Route path="/partsstore"element={<PartsStore/>} />
         </Routes>
       </Router>
     </div>

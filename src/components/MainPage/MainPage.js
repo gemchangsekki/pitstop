@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import gearShopImage from '../img/gearShop.PNG';
 import partsShopImage from '../img/parts.PNG';
+import { Link } from 'react-router-dom'
 
 function MainPage() {
 
@@ -18,9 +19,9 @@ function MainPage() {
           textAlign: 'center'
         }}
       >
-        <a
-          className='partShopLink'
-          href='/'
+        <Link
+          className='PartsStoreLink'
+          to={'/partsstore'}
         >
           <img 
             src={partsShopImage}
@@ -32,10 +33,11 @@ function MainPage() {
               margin: '40px 20px'
             }}
           />
-        </a>
-        <a
-          className='gearShoplink'
-          href='/gearshop'
+        </Link>
+        
+        <Link
+          className='gearShopLink'
+          to={'/gearshop'}
         >
           <img 
             src={gearShopImage}
@@ -47,7 +49,7 @@ function MainPage() {
               margin: '40px 20px'
             }}
           />
-        </a>
+        </Link>
       </div>
       
     </>
