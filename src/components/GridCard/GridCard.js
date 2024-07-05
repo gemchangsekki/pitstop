@@ -1,613 +1,365 @@
 import React from 'react'
-import { Card, Grid, Col, Row } from 'antd';
+import { Card, Col, Row } from 'antd';
+import { Link } from 'react-router-dom';
+import emptyImage from '../img/emptyImage.png';
 
-function GridCard() {
+const GridCard= () => {
+  
+  const {Meta} = Card;
+
+  // const images = productImage(
+  //   require.context('../img/gearProduct', true, /\.(png|jpe?g|svg)$/),
+  // );
+
   return (
     <>
-      <div>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
+      <div
+        style={{
+          width: '80%'
+        }}
+      >
+        <Row 
+          gutter={[48, 16]}
+          className=''
+        >
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
           >
-            <Col span={1.5}>
+            <Link>
               <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
           >
-            <Col span={1.5}>
+            <Link>
               <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
           >
-            <Col span={1.5}>
+            <Link>
               <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
           >
-            <Col span={1.5}>
+            <Link>
               <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
           >
-            <Col span={1.5}>
+            <Link>
               <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
           >
-            <Col span={1.5}>
+            <Link>
               <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
+          <Col 
+            lg={4} md={6} sm={12} xs={24}
+            className='column'
+          >
+            <Link>
+              <Card
+                hoverable
+                style={{width: '100%'}}
+                cover={<img src={emptyImage} alt={emptyImage} />}
+              >
+                <Meta title={'제품명'}/>
+              </Card>
+            </Link>
+          </Col>
         </Row>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-        </Row>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-        </Row>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-        </Row>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-        </Row>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-        </Row>
-        <Row>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-          <div
-            style={{
-              margin: '10px 5px'
-            }}
-          >
-            <Col span={1.5}>
-              <Card
-                style={{ 
-                  width: '200px', 
-                  height: '260px'
-                }}
-              />
-            </Col>
-          </div>
-        </Row>
-      </div>
+      </div>  
     </>
   )
 }
