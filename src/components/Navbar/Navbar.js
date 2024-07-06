@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Layout} from 'antd';
+import { Button, Layout } from 'antd';
 import logo from '../img/logo.png'
 import { Link } from 'react-router-dom';
 
@@ -13,26 +13,34 @@ function Navbar() {
     <Layout>
       <Header
         style={{
-          backgroundColor: '#aaaaaa'
+          backgroundColor: '#aaaaaa',
+          height: '100px'
         }}
       >
         <Link
           className='logoLink'
+          style={{
+            position: 'relative',
+            top: '10px'
+          }}
           to={'/'}
         >
-          <img src={logo} width={'60px'} />
+          <img src={logo} width={'80px'} />
         </Link>
         <div 
           style={{
-            float: 'right',
+            position: 'absolute',
+            top : '22px',
+            right: '20px'
           }}
         >
           <Button>로그인</Button>
         </div>
         <div
           style={{
-            float:'right',
-            marginRight:'10px'
+            position: 'absolute',
+            top: '22px',
+            right: '100px'
           }}
         >
           <Button>회원가입</Button>

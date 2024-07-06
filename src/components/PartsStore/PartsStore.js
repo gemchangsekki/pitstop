@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import GridCard from '../GridCard/GridCard'
-import DropDown from '../DropDown/DropDown'
+import PriceSort from '../DropDown/PriceSort'
 
 function PartsStore() {
   return (
@@ -14,7 +14,7 @@ function PartsStore() {
         <Navbar />
       </div>
 
-      <DropDown />
+      <PriceSort />
 
       <div>
         <GridCard />
