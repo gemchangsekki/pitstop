@@ -13,6 +13,9 @@ function GearShop() {
       <div className='category button'
         style={{
           position: 'absolute',
+          display: 'flex',
+          flexDirection: 'row',
+          gap: '15px',
           left: '160px',
           top: '13px'
         }}
@@ -25,6 +28,9 @@ function GearShop() {
       <div className='gearBrand'
         style={{
           position: 'absolute',
+          display: 'flex',
+          flexDirection: 'row',
+          gap: '15px',
           left: '160px',
           top: '55px'
         }}
@@ -44,7 +50,9 @@ function GearShop() {
         className='priceButton'
         style={{
           position: 'relative',
-          left: '11%',
+          display: 'flex',
+          gap: '10px',
+          left: '10px',
           margin: "10px auto"
         }}
       >
@@ -53,6 +61,7 @@ function GearShop() {
         <Button>높은가격</Button>
         <Button>낮은가격</Button>
       </div>
+      <hr />
       <div
         style={{
           display: 'flex',

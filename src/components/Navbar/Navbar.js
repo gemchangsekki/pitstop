@@ -27,7 +27,16 @@ function Navbar() {
         >
           <img src={logo} width={'80px'} />
         </Link>
-        <div 
+        <div
+          style={{
+            position: 'absolute',
+            top: '5px',
+            right: '20px'
+          }}
+        >
+          <Button>마이페이지</Button>
+        </div>
+        {/* <div 
           style={{
             position: 'absolute',
             top : '22px',
@@ -44,17 +53,6 @@ function Navbar() {
           }}
         >
           <Button>회원가입</Button>
-        </div>
-        {/* <div>
-            <div className='sign_up_btn'
-              style={{
-                textAlign: 'right'
-              }}
-            >
-                <Button>회원가입</Button>
-            </div>
-          
-          
         </div> */}
 
       </Header>
