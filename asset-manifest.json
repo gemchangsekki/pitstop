@@ -1,18 +1,42 @@
 {
   "files": {
     "main.css": "/pitstop/static/css/main.e6c13ad2.css",
-    "main.js": "/pitstop/static/js/main.16498fde.js",
+    "main.js": "/pitstop/static/js/main.01e3a4d4.js",
     "static/js/453.12130754.chunk.js": "/pitstop/static/js/453.12130754.chunk.js",
     "static/media/gearShop.PNG": "/pitstop/static/media/gearShop.ca1b81d72c86324e912c.PNG",
     "static/media/parts.PNG": "/pitstop/static/media/parts.97495492a400a272830e.PNG",
+    "static/media/img03.jpg": "/pitstop/static/media/img03.605e6680161eb1110324.jpg",
+    "static/media/img05.jpg": "/pitstop/static/media/img05.09f918fb2d9e84cdb730.jpg",
+    "static/media/img13.jpg": "/pitstop/static/media/img13.d9e745abb1d9a3ca9dfb.jpg",
+    "static/media/img15.jpg": "/pitstop/static/media/img15.c4a82f97d32c10cd3df6.jpg",
+    "static/media/img17.jpg": "/pitstop/static/media/img17.5a7a9ea428c7653c776e.jpg",
+    "static/media/img14.jpg": "/pitstop/static/media/img14.9c214f28ed7407005616.jpg",
+    "static/media/img16.jpg": "/pitstop/static/media/img16.a1d4f65274c26b2566c5.jpg",
+    "static/media/img09.jpg": "/pitstop/static/media/img09.bfb358941fd6d690cd84.jpg",
+    "static/media/img04.jpg": "/pitstop/static/media/img04.193cb8002ead301bad7b.jpg",
+    "static/media/img20.jpg": "/pitstop/static/media/img20.07b0aa8cfbcd544cd11f.jpg",
+    "static/media/ad01.png": "/pitstop/static/media/ad01.974b4f69fe4a5940b41a.png",
+    "static/media/img19.jpg": "/pitstop/static/media/img19.d6ffb77b72ff4bb5a94a.jpg",
+    "static/media/img12.jpg": "/pitstop/static/media/img12.d9d048395f090e709911.jpg",
+    "static/media/img18.jpg": "/pitstop/static/media/img18.87033e7d47f575cfb353.jpg",
+    "static/media/img08.jpg": "/pitstop/static/media/img08.bd30866f1da3f9b07e21.jpg",
+    "static/media/img24.jpg": "/pitstop/static/media/img24.d365847d03eb9ba28e28.jpg",
+    "static/media/img23.jpg": "/pitstop/static/media/img23.2e36c10f48ab04d3786d.jpg",
+    "static/media/img22.jpg": "/pitstop/static/media/img22.35f33f4b7f6ec7098b43.jpg",
+    "static/media/img07.jpg": "/pitstop/static/media/img07.a8b9ae28979e859b1be1.jpg",
     "static/media/logo.png": "/pitstop/static/media/logo.6a6a49d263595e876798.png",
+    "static/media/img01.jpg": "/pitstop/static/media/img01.b04443f53b197de84322.jpg",
+    "static/media/img10.jpg": "/pitstop/static/media/img10.22fdfe8a729ec801436e.jpg",
+    "static/media/img02.jpg": "/pitstop/static/media/img02.7975be27744dff883f0d.jpg",
+    "static/media/img11.jpg": "/pitstop/static/media/img11.4a5af6890fb9c9468aae.jpg",
+    "static/media/img21.jpg": "/pitstop/static/media/img21.c1795f782574fe6b265f.jpg",
     "index.html": "/pitstop/index.html",
     "main.e6c13ad2.css.map": "/pitstop/static/css/main.e6c13ad2.css.map",
-    "main.16498fde.js.map": "/pitstop/static/js/main.16498fde.js.map",
+    "main.01e3a4d4.js.map": "/pitstop/static/js/main.01e3a4d4.js.map",
     "453.12130754.chunk.js.map": "/pitstop/static/js/453.12130754.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.16498fde.js"
+    "static/js/main.01e3a4d4.js"
   ]
 }
