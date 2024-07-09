@@ -6,6 +6,8 @@ import { Button } from 'antd';
 import BrandDrop from '../DropDown/GrearBrandDrop';
 import CategoryDrop from '../DropDown/GearCategoryDrop';
 import CategoryDropExtra from '../DropDown/GrearCategoryExtra';
+import { Link } from 'react-router-dom';
+import AdBanner from '../img/ad/ad01.png'
 
 function GearShop() {
   return (
@@ -22,7 +24,7 @@ function GearShop() {
       >
         <Button>헬멧</Button>
         <Button>자켓</Button>
-        <Button>글러브</Button>
+        <Button>부츠</Button>
       </div>
 
       <div className='gearBrand'
@@ -45,6 +47,21 @@ function GearShop() {
         }}
       >
         <Navbar />
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          top: '250px',
+          right: '20px'
+        }}
+      >
+        <Link to={'https://ysk.co.kr/'}>
+          <img src={AdBanner} 
+            style={{
+              width: '200px'
+            }}
+          />
+        </Link>
       </div>
       <div
         className='priceButton'
